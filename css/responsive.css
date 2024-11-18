@@ -1,0 +1,133 @@
+
+@media screen and (max-width: 900px){
+    header .menu-desktop,header .btn-contato{
+        display: none;
+        
+    }
+
+header .btn-menu-mob{
+    display: block;
+}
+}
+
+@media screen and (max-width: 900px){
+    /*Responsivo da Hero*/
+    .hero-site .txt-hero h1{
+        font-size: 2.6em;
+        line-height: 45px;
+        font-weight: 100;
+    }
+    
+    
+    
+    .hero-site .txt-hero p{
+        font-size: 14px;
+    
+    }
+    
+    .hero-site .txt-hero p span{
+        display: inline;
+    }
+    
+    .hero-site button{
+        
+        font-size: 18px;
+    }
+
+}
+/*Responsivo das Etapas*/
+
+.vantagens .itens-container{
+    
+    flex-direction: column;
+    /**/
+}
+
+.vantagens .itens-container .img-itens img {
+    width: 100%;
+
+}
+
+.vantagens .itens-container .txt-itens  p{
+    margin-bottom: 20px;
+
+}
+
+.vantagens .itens-container .item-1{
+    order: 1;
+}
+
+.vantagens .itens-container .item-2{
+    order: 0;
+}
+
+/*Estilo dos botões de dados */
+   
+    .txt-contato, .icons-contato{
+        display: block;
+        width: 100%;
+        
+    }
+
+    .contato .txt-contato h3{
+        font-size: 2em;
+        line-height: 40px;
+
+    }
+
+    .contato .icons-contato button{
+        width: 100%;
+    
+    }
+    .contato .txt-contato p{
+        margin-bottom: 20px;
+
+    }
+
+    /**Parte de quem somos nós!**/
+   
+
+    .eu-site h4{
+        font-size: 2.3em;
+        line-height: 40px;
+       
+    }
+
+
+    .eu-site p{
+        font-size: 16px;
+        margin: 20px 0;
+      
+    }
+
+    /*Estilo da sessão funcionamento*/
+
+    .txt-funcionamento, .instrucoes{
+    display: block;
+    width: 100%;
+    }
+    /*Letra que acompanha o scroll*/
+    .funcionamento .txt-funcionamento{
+        position: static;
+    }
+
+    .funcionamento .txt-funcionamento h3{
+        font-size: 3em;
+        line-height: 50px;
+    }
+    .instrucoes .instru-box{
+    flex-direction: column;
+    text-align: center;
+    }
+
+    /*Estilo do Rodapé*/
+        footer .middle-footer a{
+            margin: 15 0px;
+
+            display: block;
+        }
+        
+        footer .bottom-footer p{
+            font-size: 14px;
+        }
+        
