@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1006px){
     header .menu-desktop,header .btn-contato{
         display: none;
         
@@ -10,8 +10,8 @@ header .btn-menu-mob{
 }
 }
 
-@media screen and (max-width: 900px){
-    /*Responsivo da Hero*/
+@media screen and (max-width: 1006px){
+
     .hero-site .txt-hero h1{
         font-size: 2.6em;
         line-height: 45px;
@@ -34,13 +34,13 @@ header .btn-menu-mob{
         font-size: 18px;
     }
 
-}
-/*Responsivo das Etapas*/
+
+
 
 .vantagens .itens-container{
     
     flex-direction: column;
-    /**/
+    
 }
 
 .vantagens .itens-container .img-itens img {
@@ -61,7 +61,7 @@ header .btn-menu-mob{
     order: 0;
 }
 
-/*Estilo dos botões de dados */
+
    
     .txt-contato, .icons-contato{
         display: block;
@@ -84,7 +84,7 @@ header .btn-menu-mob{
 
     }
 
-    /**Parte de quem somos nós!**/
+    
    
 
     .eu-site h4{
@@ -100,13 +100,13 @@ header .btn-menu-mob{
       
     }
 
-    /*Estilo da sessão funcionamento*/
+    
 
     .txt-funcionamento, .instrucoes{
     display: block;
     width: 100%;
     }
-    /*Letra que acompanha o scroll*/
+   
     .funcionamento .txt-funcionamento{
         position: static;
     }
@@ -120,7 +120,7 @@ header .btn-menu-mob{
     text-align: center;
     }
 
-    /*Estilo do Rodapé*/
+  
         footer .middle-footer a{
             margin: 15 0px;
 
@@ -130,4 +130,4 @@ header .btn-menu-mob{
         footer .bottom-footer p{
             font-size: 14px;
         }
-        
+    }
